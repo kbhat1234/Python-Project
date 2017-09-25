@@ -12,7 +12,7 @@ def timedelta_func():
 
            print "in one week and 4 days it will be ", str(datetime.now() + timedelta(weeks=1, days=4))
            today = date.today()
-           nyd = date(2018,1,1)
+           nyd = date(2019,1,1)
            if(nyd < today):
                       print "New year day already went by " +str((today-nyd).days) + " ago"
            else:
