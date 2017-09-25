@@ -1,7 +1,4 @@
-from datetime import date
-from datetime import time
-from datetime import datetime
-from datetime import timedelta
+from datetime import date, time, datetime, timedelta
 
 def date_func():
            #using date object
