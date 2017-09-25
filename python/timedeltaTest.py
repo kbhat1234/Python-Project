@@ -16,7 +16,7 @@ def timedelta_func():
            if(nyd < today):
                       print "New year day already went by " +str((today-nyd).days) + " ago"
            else:
-                      print "New year yet to come by "
+                      print "New year yet to come by " +str((nyd-today).days) + " days"
 
 def main():
            timedelta_func()
