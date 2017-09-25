@@ -6,15 +6,15 @@ from datetime import timedelta
 def date_func():
            #using date object
            print "=======================Using Date Object====================="
-           today_date = date.today()
-           day = today_date.day
-           month = today_date.month
-           year = today_date.year
+           today = date.today()
+           day = today.day
+           month = today.month
+           year = today.year
 
-           print "Today's date is : ",today_date
+           print "Today's date is : ",today
            print "Date components are: ", day, month, year
 
-           weekday = today_date.weekday()
+           weekday = today.weekday()
            if (weekday == 0):
                       print "Monday"
            elif(weekday == 1):
