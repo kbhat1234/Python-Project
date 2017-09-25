@@ -8,6 +8,7 @@ def dateTimeFormatFunc():
            print "Weekday name (format Wednesday) is ", now.strftime("%A")
            print "Month name (format June) is ", now.strftime("%b")
            print "Month nane (format Jun) is ", now.strftime("%B")
+           print "Day is ", now.strftime("%d")
            print "Local date and time: ", now.strftime("%c")
            print "Local date: ", now.strftime("%X")
            print "Local time: ", now.strftime("%x")
