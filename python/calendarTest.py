@@ -2,7 +2,7 @@ import calendar
 
 def calText_func():
            print "Text Calendar"
-           c = calendar.TextCalendar(calendar.THURSDAY)
+           c = calendar.TextCalendar(calendar.SUNDAY)
            str = c.formatmonth(2017,1)
            print str
            
