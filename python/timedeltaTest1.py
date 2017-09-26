@@ -1,4 +1,4 @@
-from datetime  import timedelta, date, time, datetime
+from datetime  import timedelta, date, time, datetime, tzinfo
 
 def timedelta_func():
            today = datetime.now()
@@ -8,7 +8,6 @@ def timedelta_func():
 
            d= date.today()
            nyd = date(d.year,1,1)
-
            if(nyd<d):
                       print "new year day is already went by ", str((d-nyd).days) +" days"
            else:
